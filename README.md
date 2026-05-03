@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27262102/README.md)
 # Kubernetes Autoscaling Demo
 
 A production-grade Kubernetes autoscaling demonstration. A Python web app containerized and deployed onto a local Kubernetes cluster via Helm charts, with a Horizontal Pod Autoscaler that automatically scales from 1 to 4 replicas under CPU load, monitored by Prometheus. All deployment configuration is defined as code using Helm templates.
